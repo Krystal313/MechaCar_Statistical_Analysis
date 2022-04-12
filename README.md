@@ -1,13 +1,21 @@
 # MechaCar_Statistical_Analysis
 
+# Overview of the project
+Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
 ## Linear Regression to Predict MPG
 
 ![MechaCarMpg_LinearRegression](https://github.com/Krystal313/MechaCar_Statistical_Analysis/blob/d71f9226c651dedef81e39dd14693882136eabfd/Resources/MechaCarMpg_LinearRegression.png)
 ![MechaCarMpg_Summary](https://github.com/Krystal313/MechaCar_Statistical_Analysis/blob/846e5d51e1dafaa4a28ec6c3716e59f941b571b8/Resources/MechaCarMpg_Summary.png)
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+The vehicle weight, spoiler angle and AWD provided the non - random amount of variance to the mpg values in the dataset. 
+
+2. Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the liner model is not considered to be zero because the p-value of linear regression is 5.35e-11, which it is smaller than significance level of 0.05%. 
+
+3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 
 ## Suspension Coil
 
