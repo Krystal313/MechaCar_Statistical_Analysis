@@ -15,10 +15,14 @@ The vehicle weight, spoiler angle and AWD provided the non - random amount of va
 The slope of the liner model is not considered to be zero because the p-value of linear regression is 5.35e-11, which it is smaller than significance level of 0.05%. 
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+Yes, because this linear model has multiple r-squared value of 0.7149, which means approximately 71% of all mpg predictions will be correct using this linear model. 
 
 ## Suspension Coil
+Total Summary
+![SuspensionCoil_TotalSummary](https://github.com/Krystal313/MechaCar_Statistical_Analysis/blob/53c939689bb9871f138da96836c85a6768329046/Resources/SuspensionCoil_TotalSummary.png)
 
+Lot Summary
+![SuspensionCoil_LotSummary](https://github.com/Krystal313/MechaCar_Statistical_Analysis/blob/53c939689bb9871f138da96836c85a6768329046/Resources/SuspensionCoil_LotSummary.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
